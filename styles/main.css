@@ -1,0 +1,43 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: #3cdbc0;
+}
+
+.Menu {
+  font-family: #4a4a4a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+  align-content: center;
+  padding: 13px;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 30px;
+}
+
+@media all and (min-width:768px) {
+	/* Reglas CSS que aplicaremos */
+	}
